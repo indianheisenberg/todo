@@ -1,0 +1,20 @@
+.card{
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(243 233 233 / 20%), 0 6px 20px 0 #ff8c00;
+}
+
+
+.task-wrapper{
+    width: 300px;
+    padding: 20px;
+}
+
+.task-time-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-time{
+    margin-left: 5px;
+}

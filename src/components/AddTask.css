@@ -1,0 +1,37 @@
+.add-task-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 10px;
+    margin-top: 20px;
+    /* margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 2%; */
+}
+
+
+
+.addtask-button{
+    grid-column: 2/3;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background-color: darkorange  !important;
+    color: white !important;
+}
+
+.addtask-title{
+    grid-column : 2/ 3;
+    margin-bottom: 10px;
+}
+
+form{
+    grid-column : 2/3;
+}
+
+.addtask-message{
+    grid-column: 1/2;
+    margin-bottom: 10px;
+}
+
+
